@@ -1,0 +1,53 @@
+ELCTRODOMESTICOS MAGNETIX
+
+INICIO:
+- Añadir usuario
+- Añadir producto
+
+- Modificar producto
+    - Nombre
+    - Tipo
+    - Precio
+        - Insertar (default $0.00)
+        - Modificar
+        - Eliminar
+    - Imagen basica (pixel-art)
+        - Insertar (default pixel-art)
+        - Modificar
+        - Eliminar
+
+- Modificar usuario
+    - Nombre (default: Jane Doe)
+    - Lugar de residencia (default: Tierra)
+    - Productos
+        - Añadir
+        - Modificar
+        - Eliminar
+
+- Eliminar usuario
+    - Advertencia si es correcto
+- Eliminar producto
+    - Advertencia si es correcto
+
+TAREAS:
+- Dar producto a usuario
+    - Verificar si hay Stock
+        Si: dar producto a usuario
+        No: no dar producto a usuario y advertir a master
+
+TABLA:
+- USUARIO
+    - ID
+    - Nombre
+    - Direccion
+    - Productos en Inventario
+- PRODUCTOS
+    - Categorias
+        - ID
+        - Nombre
+    - Procucto
+        - ID
+        - Nombre
+        - Precio
+        - Stock
+        - IDcategoria (FOREIGN_KEY)
