@@ -1,0 +1,26 @@
+{
+  "name": "evaluacion_extra",
+  "version": "1.0.0",
+  "description": ":warning: PARA CORRER EL SIGUIENTE CODIGO SE NECESITA:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jorge-Luis008/Evaluacion_Extra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jorge-Luis008/Evaluacion_Extra/issues"
+  },
+  "homepage": "https://github.com/Jorge-Luis008/Evaluacion_Extra#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
