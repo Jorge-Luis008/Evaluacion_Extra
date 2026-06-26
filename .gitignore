@@ -1,2 +1,19 @@
+# Node.js
 node_modes/
+
+# Configuracion local y contraseñas
 .env
+.env.local
+
+# archivos temporales
+npm-debug-log*
+yarn-debug-log*
+yarn-error-log*
+
+# Archivos OS
+.DS_Store
+Thumbs.db
+
+# Configuracion de editor
+.vscode/
+.idea/
